@@ -21,7 +21,7 @@ module.exports = {
 ```
 
 (2) Install LDAP authentication module
-- cp ~/.node-red/node_modules/
+- cd ~/.node-red/node_modules/
 - npm install node-red-auth-contrib-ldap
 
 (3) Run Node-RED
