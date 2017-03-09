@@ -5,7 +5,7 @@ LDAP authentication module for Node-RED
 
 (1) Add LDAP server information into settings.js file
 - vi ~/.node-red/settings.js
-``
+```
 var config = {
     url: "ldap://<hostname>:389",
     dn: "uid=%username%,ou=people,o=example,c=jp"
@@ -25,4 +25,4 @@ module.exports = {
 - npm install node-red-auth-contrib-ldap
 
 (3) Run Node-RED
-> node-red
+- node-red
