@@ -1,0 +1,26 @@
+{
+  "name": "node-red-auth-contrib-ldap",
+  "version": "0.0.0",
+  "description": "LDAP authentication module for Node-RED",
+  "main": "ldap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazuhitoyokoi/node-red-auth-contrib-ldap.git"
+  },
+  "keywords": [
+    "ldap"
+  ],
+  "author": "Kazuhito Yokoi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kazuhitoyokoi/node-red-auth-contrib-ldap/issues"
+  },
+  "homepage": "https://github.com/kazuhitoyokoi/node-red-auth-contrib-ldap#readme",
+  "dependencies": {
+    "when": "3.7.8",
+    "ldapjs": "1.0.1"
+  }
+}
