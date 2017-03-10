@@ -3,8 +3,16 @@ LDAP authentication module for Node-RED
 
 ## Configration to use LDAP authentication
 
-(1) Add LDAP server information into settings.js file
-- vi ~/.node-red/settings.js
+(1) Install LDAP authentication module
+```
+sudo npm install -g node-red-auth-contrib-ldap
+```
+
+(2) Add LDAP server information into settings.js
+```
+vi ~/.node-red/settings.js
+```
+Add adminAuth block in module.exports block as follows.
 ```
 module.exports = {
 ...
@@ -15,10 +23,11 @@ module.exports = {
 ...
 }
 ```
-
-(2) Install LDAP authentication module
-- cd ~/.node-red/node_modules/
-- npm install node-red-auth-contrib-ldap
+You can modify dn(distinguished name) which corresponds with your LDAP server.
+%username% is reserved word which dn string has as user name.
 
 (3) Run Node-RED
-- node-red
+```
+node-red
+```
+
