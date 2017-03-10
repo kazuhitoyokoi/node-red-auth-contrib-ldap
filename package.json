@@ -1,6 +1,6 @@
 {
   "name": "node-red-auth-contrib-ldap",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "LDAP authentication module for Node-RED",
   "main": "ldap.js",
   "scripts": {
@@ -21,6 +21,6 @@
   "homepage": "https://github.com/kazuhitoyokoi/node-red-auth-contrib-ldap#readme",
   "dependencies": {
     "when": "3.7.8",
-    "ldapjs": "1.0.1"
+    "ldapjs": "0.7.1"
   }
 }
