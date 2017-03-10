@@ -5,6 +5,7 @@ var config;
 module.exports = {
    init: function(_config) {
        config = _config;
+       return this;
    },
    type: "credentials",
    users: function(username) {
